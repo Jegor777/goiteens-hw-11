@@ -263,9 +263,16 @@ nav{
 .icon-team{
     flex-basis: calc((100% - 30px * 4) / 4);
     margin: 15px;
+    fill: #AFB1B8;
     
 }
+.icon-team:hover,
+.icon-team:focus{
+    background-color: var(--accent-color);
 
+    border-radius: 4px;
+    
+}
 /* Постійні клієнти */
 .customers-link{
     width: 170px;
@@ -276,6 +283,8 @@ nav{
 .customers-link:hover,
 .customers-link:focus{
     border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    color:var(--thirdly-text-color);
 }
 
 /* Футер */
