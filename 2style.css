@@ -253,6 +253,19 @@ nav{
 .team-img{
     width: 270px;
 }
+.team-list{
+    
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+    
+}
+.icon-team{
+    flex-basis: calc((100% - 30px * 4) / 4);
+    margin: 15px;
+    
+}
+
 /* Постійні клієнти */
 .customers-link{
     width: 170px;
